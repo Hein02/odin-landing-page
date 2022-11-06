@@ -96,7 +96,7 @@ body {
 }
 
 .info {
-  padding: 0 120px;
+  padding: 0 128px;
 }
 
 .info__title {
@@ -111,6 +111,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 32px;
+  margin-bottom: 64px;
 }
 
 .info__item {
@@ -121,8 +122,8 @@ body {
 }
 
 .info__figure {
-  width: 120px;
-  height: 120px;
+  width: 128px;
+  height: 128px;
   border: 4px solid #3882f6;
   border-radius: 8px;
 }
@@ -133,4 +134,24 @@ body {
 .info__text {
   text-align: center;
   color: #606062;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 128px;
+}
+
+.quote__text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  margin-bottom: 8px;
+  line-height: normal;
+}
+
+.quote__author {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
 }
