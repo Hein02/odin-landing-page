@@ -92,6 +92,7 @@ body {
   color: #efefef;
   padding: 8px 32px;
   height: fit-content;
+  font-size: 18px;
 }
 
 .hero__button {
@@ -172,12 +173,11 @@ body {
   margin: 80px 64px;
 }
 
-.cta__text {
-}
-
 .cta__main-text {
   color: #f9faf8;
   margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .cta__secondary-text {
