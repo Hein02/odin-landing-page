@@ -74,15 +74,13 @@ body {
 .hero__figure {
   width: 50%;
   height: 200px;
-  background-color: #606062;
   color: #efefef;
   flex: 1 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero__image {
+  object-fit: contain;
+  width: 100%;
 }
 
 .button {
