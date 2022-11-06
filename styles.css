@@ -11,3 +11,24 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.main-nav {
+  background-color: #1f2937;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav__list {
+  display: inline-flex;
+  gap: 32px;
+}
+
+.main-nav__item {
+}
+
+.main-nav__link {
+  color: #e5e7eb;
+  text-decoration: none;
+}
